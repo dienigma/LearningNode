@@ -28,4 +28,4 @@ console.log(myUrl.searchParams);
 
 // Loop through params
 
-myUrl.searchParams.forEach((value,name) => console.log(`${name} => ${value}`));
+myUrl.searchParams.forEach((value,name) => console.log(`${name} => ${value}`));myUrl.searchParams.append('abc',"123")
